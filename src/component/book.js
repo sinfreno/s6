@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Book = () => {
+const Book = (props) => {
 
     return(
     <div>
-        Viatge a la lluna
+        {props.title}
     </div>
  
     )}

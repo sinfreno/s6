@@ -5,7 +5,7 @@ import Book from './component/book'
 function App() {
   return (
     <div className="App">
-      <Book />
+      <Book title="Viatje a la lluna"/>
     </div>
   );
 }
